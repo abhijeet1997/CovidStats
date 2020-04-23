@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Covid Stats</string>
+
+    <string name="active">Active Cases : %1$d</string>
+    <string name="recovered">Recovered Cases : %1$d</string>
+    <string name="total">Total Cases : %1$d</string>
+    <string name="critical">Critical Cases : %1$d</string>
+    <string name="new_deaths">New Deaths : %1$s</string>
+    <string name="total_deaths">Total Deaths : %1$d</string>
+    <string name="new_cases">New Cases : %1$s</string>
+
+    <string name="detail_active">Active Cases</string>
+    <string name="detail_recovered">Recovered Cases</string>
+    <string name="detail_total">Total Cases</string>
+    <string name="detail_critical">Critical Cases</string>
+    <string name="detail_new_deaths">New Deaths</string>
+    <string name="detail_total_deaths">Total Deaths</string>
+    <string name="detail_new_cases">New Cases</string>
+
+
+</resources>
