@@ -15,7 +15,13 @@
     <string name="detail_critical">Critical Cases</string>
     <string name="detail_new_deaths">New Deaths</string>
     <string name="detail_total_deaths">Total Deaths</string>
-    <string name="detail_new_cases">New Cases</string>
+    <string name="detail_new_cases">New Cases</string>\
+
+    <string name="details">All You Need to Know About COVID 19!</string>
+    <string name="click_for_stats">Worldwide Stats</string>
+    <string name="request">Request for Support!</string>
+
+    <string name="volunteer">Volunteer to help people in Need</string>
 
 
 </resources>
