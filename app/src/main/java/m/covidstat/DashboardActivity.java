@@ -17,7 +17,7 @@ public class DashboardActivity extends AppCompatActivity {
 
     private CardView statsCard;
     private AppCompatImageView close;
-    private CardView volunteerCard, requestCard;
+    private CardView volunteerCard, requestCard, infoCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,12 +29,13 @@ public class DashboardActivity extends AppCompatActivity {
         close = findViewById(R.id.close);
         volunteerCard = findViewById(R.id.volunteer_card);
         requestCard = findViewById(R.id.request_card);
+        infoCard = findViewById(R.id.info);
 
         close.setOnClickListener(v -> finish());
 
         statsCard.setOnClickListener(v -> startScreen(2));
         requestCard.setOnClickListener(v -> startScreen(3));
-
+        infoCard.setOnClickListener(v -> startScreen(1));
 
         volunteerCard.setOnClickListener(v -> startScreen(4));
     }
@@ -42,6 +43,10 @@ public class DashboardActivity extends AppCompatActivity {
     private void startScreen(int num) {
         Intent intent;
         switch (num){
+            case 1:
+                intent = new Intent(getApplicationContext(), CovidInfoActivity.class);
+                startActivity(intent);
+                break;
             case 2:
                  intent = new Intent(getApplicationContext(), MainActivity.class);
                  startActivity(intent);

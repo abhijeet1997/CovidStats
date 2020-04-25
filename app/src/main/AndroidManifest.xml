@@ -11,7 +11,8 @@
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RequestActivity"></activity>
+        <activity android:name=".CovidInfoActivity"></activity>
+        <activity android:name=".RequestActivity" />
         <activity android:name=".FormActivity" />
         <activity android:name=".DashboardActivity">
             <intent-filter>

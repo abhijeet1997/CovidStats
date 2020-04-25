@@ -98,6 +98,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/info"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 app:cardElevation="5dp"
