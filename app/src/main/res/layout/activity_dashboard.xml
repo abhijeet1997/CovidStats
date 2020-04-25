@@ -140,6 +140,7 @@
 
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/request_card"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:layout_weight="1"
@@ -162,6 +163,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/volunteer_card"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:layout_weight="1"

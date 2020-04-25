@@ -22,6 +22,12 @@
     <string name="request">Request for Support!</string>
 
     <string name="volunteer">Volunteer to help people in Need</string>
+    <string name="submit">Submit</string>
+
+    <string name="name">Name : %1$s</string>
+    <string name="phone">Phone : %1$s</string>
+
+
 
 
 </resources>

@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity implements CountryAdapter.on
     public void onCountryClick(int position, List<StatisticsModel.Response> countryWiseCoronaCasesList, int imgIndex) {}
 
 
-    public class GridSpacingItemDecoration extends RecyclerView.ItemDecoration {
+    public static class GridSpacingItemDecoration extends RecyclerView.ItemDecoration {
 
         private int spanCount;
         private int spacing;
